@@ -11,7 +11,7 @@ app.use(secure)
 
 app.get('/', function(req, res) {
     console.log(req.rawHeaders[0])
-    res.sendFile(__path + '/LIBA RECORD - Home.html')
+    res.sendFile(__path + '/index.html')
 })
 
 app.listen(PORT, () => {
